@@ -4,3 +4,5 @@ function [Ixx, Iyy] = calculateSecMoaRectangle(b, h)
 %
 Ixx = 1/12 * b * h^3;
 Iyy = 1/12 * h * b^3;
+%modified by Yujie.Li
+IZZ = 1/12 * h * b^3;
